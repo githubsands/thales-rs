@@ -1,0 +1,22 @@
+[package]
+name = "thalesd-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+abciclient = { path = "abciclient" }
+abcicodec = { path = "abcicodec" }
+abcidriver = { path = "abcidriver" }
+abciserver = { path = "abciserver" }
+accounts = { path = "accounts" }
+funding = { path = "funding" }
+indexer = { path = "indexer" }
+mempool = { path = "mempool" }
+order = { path = "order" }
+orderbook = { path = "orderbook" }
+trader-client = { path  = "trader-client" }
+wsserver = { path = "wsserver" }
+
+[[bin]]
+name = "thalesd"
+path = "main.rs"
