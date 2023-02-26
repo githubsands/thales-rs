@@ -42,7 +42,6 @@ def zip_data_folder(input_folder, output_folder):
         with shutil.archive(input_folder, format='zip', root_dir='') as f_in:
             f_out.write(f_in.read())
 
-# TODO: get a testnet report
 # TODO: get a matic and others report - genesis.jsons that arn't included from our node tree
 class ChainManager():
     def __init__(self, file_path):
@@ -155,9 +154,28 @@ class ChainManager():
             df = pd.DataFrame(self.genesis_data_report, orient='index')
             df.to_csv('/data/export/genesis-all.csv')
         except Exception as e:
-            logging.error("Failed to add genesis data: "+e)
+            logging.error("Failed to add genesis data: "+ e(str))
         finally:
             logging.info("Successfully saved genesis data")
+    def export_genesis_parameters(self):
+        files = os.listdir(CHAIN_GENESIS_DIR)
+        dataframes = []
+        for genesis in files:
+            try:
+                # TODO: Fix bug here. this file(s) causes the program to hang indefinitly
+                if genesis == "bluzellegenesis.json" or genesis == "starnamegenesis.json" or genesis == "regengenesis.json" or genesis == "konstellationgenesis.json" or genesis == "fetchhubgenesis.json" or genesis == "cheqdgenesis.json" or genesis == "agoricgenesis.json" or genesis == "bitcannagenesis.json" or genesis == "quicksilvergenesis.json" or genesis == "echelongenesis.json" or genesis == "diggenesis.json":
+                    continue
+                with open(CHAIN_GENESIS_DIR+genesis) as f:
+                    data = json.load(f)
+                    logging.info("loading genesis: " + CHAIN_GENESIS_DIR+genesis)
+                    dataframes.append(pd.json_normalize(data))
+            except Exception as e:
+                logging.error("Failed to add genesis data for: " + genesis + str(e))
+                timer.cancel()
+                continue
+        total_dataframe = pd.concat(dataframes, axis=0, ignore_index=True)
+        logging.info("expoorting chains_genesis.csv to: ", DATA_EXPORT+"/chain_genesis.csv")
+        total_dataframe.to_csv(DATA_EXPORT+"/chains_genesis.csv")
 
 class TendermintChain:
     def __init__(self, name, chain_file_path):
@@ -255,7 +273,7 @@ class TendermintChain:
             else:
                 with open(genesis_file_path, "w") as file:
                     logging.info("Creating new genesis file for "+self.name)
-                    json.dump(data, file)
+                    json.dump(data, file, indent=4)
                     logging.info("Created new genesis file for "+self.name)
 
 class Genesis:
@@ -302,6 +320,32 @@ class Genesis:
         with open(genesis_path) as f:
             self.dataframe = pd.read_json(self.genesis_path)
 
+# TODO: Make observer's filepath agnostic 
+class Observer:
+    def __init__(self):
+        data = []
+        self.dataframe = pd.DataFrame(data)
+    def observe(self, file_path):
+        try:
+            with open(CHAIN_GENESIS_DIR+"/"+file_path+"genesis"+".json") as f:
+                self.dataframe = pd.read_json(CHAIN_GENESIS_DIR+"/"+file_path+"genesis"+".json")
+        except Exception as e:
+            logging.error("Cannot print genesis: " + str(e))
+        finally:
+            pd.set_option('display.max_rows', None)
+            pd.set_option('display.max_columns', None)
+            print(self.dataframe.head())
+
+class ObserverGenesis(Observer):
+    def __init__(self):
+        data = []
+        self.dataframe = pd.DataFrame(data)
+
+class ObserverChain(Observer):
+    def __init__(self):
+        data = []
+        self.dataframe = pd.DataFrame(data)
+
 def main():
     logging.basicConfig(
         stream=sys.stdout,
@@ -311,7 +355,10 @@ def main():
 
     parser = argparse.ArgumentParser(description="Data engineering and analysis on tendermint chains")
     parser.add_argument('-r', '--reset', action='store_true', help='Removes all data')
-
+    parser.add_argument('-pg', '--print_genesis', type=str, required=False, help='print genesis')
+    parser.add_argument('-pc', '--print_chain', type=str, required=False, help='print chain')
+    parser.add_argument('-gr', '--genesis_report', action='store_true', help='creates new genesis report')
+    parser.add_argument('-gp', '--genesis_parameters_export', action='store_true', help='export all chain genesis parameters to a csv')
     args = parser.parse_args()
 
     if args.reset:
@@ -320,25 +367,36 @@ def main():
         shutil.rmtree(CHAIN_GENESIS_DIR)
         shutil.rmtree(CHAIN_TESTNET_REGISTRY_DIR)
 
-    if os.path.isdir(CHAIN_GENESIS_DIR):
-        print(CHAIN_GENESIS_DIR + "folder exists.")
-    else:
+    if args.print_genesis:
+        logging.info("Printing genesis for " + args.print_genesis)
+        observer_genesis = ObserverGenesis()
+        observer_genesis.observe(args.print_genesis)
+
+    if args.print_chain:
+        logging.info("Printing genesis for " + args.print_chain)
+        observer_genesis = ObserverChain()
+        observer_genesis.observe(args.print_chain)
+
+    if os.path.isdir(CHAIN_GENESIS_DIR) == False:
         os.makedirs(CHAIN_GENESIS_DIR, exist_ok=True)
 
-    if os.path.isdir(CHAIN_REGISTRY_DIR):
-        print(CHAIN_REGISTRY_DIR + "folder exists.")
-    else:
+    if os.path.isdir(CHAIN_REGISTRY_DIR) == False:
         os.makedirs(CHAIN_REGISTRY_DIR)
 
-    if os.path.isdir(DATA_EXPORT):
-        print(DATA_EXPORT + "folder exists.")
-    else:
+    if os.path.isdir(DATA_EXPORT) == False:
         os.makedirs(DATA_EXPORT)
 
-    PROTOCOLS=os.chdir(CHAIN_REGISTRY_DIR)
+    if args.genesis_report:
+        logging.info("Running genesis report")
+        PROTOCOLS=os.chdir(CHAIN_REGISTRY_DIR)
+        chain_manager = ChainManager(CHAIN_REGISTRY_DIR)
+        chain_manager.export_genesis_report()
 
-    chain_manager = ChainManager(CHAIN_REGISTRY_DIR)
-    chain_manager.export_genesis_report()
+    if args.genesis_parameters_export:
+        logging.info("Running chain genesis_paramters_export")
+        PROTOCOLS=os.chdir(CHAIN_REGISTRY_DIR)
+        chain_manager = ChainManager(CHAIN_REGISTRY_DIR)
+        chain_manager.export_genesis_parameters()
 
 if __name__ == "__main__":
     main()

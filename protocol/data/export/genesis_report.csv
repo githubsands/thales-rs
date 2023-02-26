@@ -4,82 +4,82 @@
 2,unification,https://raw.githubusercontent.com/unification-com/mainnet/master/latest/genesis.json > $HOME/.und_mainchain/config/genesis.json,false,URL can't contain control characters. '/unification-com/mainnet/master/latest/genesis.json > $HOME/.und_mainchain/config/genesis.json' (found at least ' ')
 3,unification,https://raw.githubusercontent.com/unification-com/mainnet/master/latest/genesis.json > $HOME/.und_mainchain/config/genesis.json,true,NaN
 4,cryptoorgchain,https://github.com/crypto-org-chain/mainnet/raw/main/crypto-org-chain-mainnet-1/genesis.json,true,NaN
-5,cudos,https://github.com/CudoVentures/cudos-builders/blob/v1.0.0/docker/config/genesis.mainnet.json,false,Expecting value: line 8 column 1 (char 7)
-6,cudos,https://github.com/CudoVentures/cudos-builders/blob/v1.0.0/docker/config/genesis.mainnet.json,true,NaN
-7,migaloo,https://raw.githubusercontent.com/White-Whale-Defi-Platform/migaloo-chain/main/networks/mainnet/genesis.json,false,HTTP Error 404: Not Found
-8,migaloo,https://raw.githubusercontent.com/White-Whale-Defi-Platform/migaloo-chain/main/networks/mainnet/genesis.json,true,NaN
-9,sifchain,https://github.com/Sifchain/networks/blob/master/betanet/sifchain-1/genesis.json.gz?raw=true,false,'utf-8' codec can't decode byte 0x8b in position 1: invalid start byte
-10,sifchain,https://github.com/Sifchain/networks/blob/master/betanet/sifchain-1/genesis.json.gz?raw=true,true,NaN
-11,idep,https://github.com/IDEP-network/Antora/raw/main/genesis.json,true,NaN
-12,mises,https://raw.githubusercontent.com/mises-id/mainnet/master/genesis.json,true,NaN
-13,loyal,https://raw.githubusercontent.com/LoyalLabs/net/main/mainnet/genesis.json,true,NaN
-14,octa,https://octa-coin-assets.s3.eu-central-1.amazonaws.com/genesis.json,false,HTTP Error 403: Forbidden
-15,octa,https://octa-coin-assets.s3.eu-central-1.amazonaws.com/genesis.json,true,NaN
-16,meme,https://github.com/memecosmos/mainnet/raw/main/meme-1/genesis.json,true,NaN
-17,chronicnetwork,https://raw.githubusercontent.com/ChronicNetwork/net/main/mainnet/v1.1/genesis.json,true,NaN
-18,microtick,https://raw.githubusercontent.com/microtick/stargate-genesis/master/genesis.json,true,NaN
-19,agoric,https://main.agoric.net/genesis.json,false,HTTP Error 403: Forbidden
-20,agoric,https://main.agoric.net/genesis.json,true,NaN
-21,umee,https://raw.githubusercontent.com/umee-network/mainnet/main/genesis.json,true,NaN
-22,carbon,https://github.com/Switcheo/carbon-bootstrap/raw/master/carbon-1/genesis.json,false,The read operation timed out
-23,carbon,https://github.com/Switcheo/carbon-bootstrap/raw/master/carbon-1/genesis.json,true,NaN
-24,stargaze,https://raw.githubusercontent.com/public-awesome/mainnet/main/stargaze-1/genesis.tar.gz,false,'utf-8' codec can't decode byte 0x8b in position 1: invalid start byte
-25,stargaze,https://raw.githubusercontent.com/public-awesome/mainnet/main/stargaze-1/genesis.tar.gz,true,NaN
-26,arkh,https://github.com/vincadian/arkh-blockchain/blob/master/genesis/genesis.json,false,Expecting value: line 8 column 1 (char 7)
-27,arkh,https://github.com/vincadian/arkh-blockchain/blob/master/genesis/genesis.json,true,NaN
-28,bandchain,https://raw.githubusercontent.com/bandprotocol/launch/master/laozi-mainnet/genesis.json,true,NaN
-29,genesisl1,https://github.com/alpha-omega-labs/genesisd/raw/neolithic/genesis_29-1-state/genesis.json,true,NaN
-30,comdex,https://comdex-mainnet-genesis.s3.ap-southeast-1.amazonaws.com/genesis.json,true,NaN
-31,thorchain,https://rpc.thorchain.info/genesis,false,"<urlopen error [Errno 8] nodename nor servname provided, or not known>"
-32,thorchain,https://rpc.thorchain.info/genesis,true,NaN
-33,chihuahua,https://raw.githubusercontent.com/ChihuahuaChain/chihuahua/main/mainnet/genesis.json,true,NaN
-34,point,https://raw.githubusercontent.com/pointnetwork/point-chain-config/main/mainnet-1/genesis.json,true,NaN
-35,akash,https://raw.githubusercontent.com/ovrclk/net/master/mainnet/genesis.json,true,NaN
-36,stride,https://raw.githubusercontent.com/Stride-Labs/testnet/main/mainnet/genesis.json,true,NaN
-37,dyson,https://gitlab.com/dysonproject/dyson-deploy/-/raw/develop/genesis.json,true,NaN
-38,cosmoshub,https://github.com/cosmos/mainnet/raw/master/genesis/genesis.cosmoshub-4.json.gz,false,'utf-8' codec can't decode byte 0x8b in position 1: invalid start byte
-39,cosmoshub,https://github.com/cosmos/mainnet/raw/master/genesis/genesis.cosmoshub-4.json.gz,true,NaN
-40,aioz,https://archive.aioz.network/aioz_168-1/genesis.json,true,NaN
-41,kava,https://kava-genesis-files.s3.us-east-1.amazonaws.com/kava_2222-10/genesis.json,true,NaN
-42,starname,https://gist.githubusercontent.com/davepuchyr/6bea7bf369064d118195e9b15ea08a0f/raw/genesis.json,true,NaN
-43,axelar,https://raw.githubusercontent.com/axelarnetwork/axelarate-community/main/resources/mainnet/genesis.json,true,NaN
-44,chain4energy,https://raw.githubusercontent.com/chain4energy/c4e-chains/main/perun-1/genesis.json,true,NaN
-45,logos,,false,unknown url type: ''
-46,logos,,true,NaN
-47,acrechain,https://raw.githubusercontent.com/ArableProtocol/acrechain/main/networks/mainnet/acre_9052-1/genesis.json,true,NaN
-48,sommelier,https://raw.githubusercontent.com/PeggyJV/sommelier/main/contrib/mainnet/sommelier-2/genesis.json,true,NaN
-49,medasdigital,https://github.com/oxygene76/medasdigital/tree/main/networks/mainnet/genesis.json,false,Expecting value: line 8 column 1 (char 7)
-50,medasdigital,https://github.com/oxygene76/medasdigital/tree/main/networks/mainnet/genesis.json,true,NaN
-51,lumenx,https://raw.githubusercontent.com/metaprotocol-ai/lumenx/master/config/genesis.json,false,HTTP Error 404: Not Found
-52,lumenx,https://raw.githubusercontent.com/metaprotocol-ai/lumenx/master/config/genesis.json,true,NaN
-53,impacthub,https://raw.githubusercontent.com/ixofoundation/genesis/980961a8e344dd39bd092493e58b4421aa1c0014/ixo-4/genesis.json,true,NaN
-54,galaxy,https://github.com/OrbisWorlds/networks/raw/main/galaxy-1/genesis.json,true,NaN
-55,echelon,https://gist.githubusercontent.com/echelonfoundation/ee862f58850fc1b5ee6a6fdccc3130d2/raw/55c2c4ea2fee8a9391d0dc55b2c272adb804054a/genesis.json,true,NaN
-56,imversed,https://static.imversed.com/mainnet/genesis.json,false,HTTP Error 403: Forbidden
-57,imversed,https://static.imversed.com/mainnet/genesis.json,true,NaN
-58,kichain,https://raw.githubusercontent.com/KiFoundation/ki-networks/v0.1/Mainnet/kichain-2/genesis.json,true,NaN
-59,bostrom,https://cloudflare-ipfs.com/ipfs/QmYubyVNfghD4xCrTFj26zBwrF9s5GJhi1TmxvrwmJCipr,true,NaN
-60,nomic,https://raw.githubusercontent.com/nomic-io/nomic/develop/genesis.json,false,HTTP Error 404: Not Found
-61,nomic,https://raw.githubusercontent.com/nomic-io/nomic/develop/genesis.json,true,NaN
-62,bitsong,https://raw.githubusercontent.com/bitsongofficial/networks/master/bitsong-2b/genesis.json,true,NaN
-63,fetchhub,https://raw.githubusercontent.com/fetchai/genesis-fetchhub/fetchhub-4/fetchhub-4/data/genesis_migrated_5300200.json,true,NaN
-64,assetmantle,https://raw.githubusercontent.com/AssetMantle/genesisTransactions/main/mantle-1/final_genesis.json,true,NaN
-65,sentinel,https://raw.githubusercontent.com/sentinel-official/networks/main/sentinelhub-2/genesis.zip,false,'utf-8' codec can't decode byte 0x97 in position 11: invalid start byte
-66,sentinel,https://raw.githubusercontent.com/sentinel-official/networks/main/sentinelhub-2/genesis.zip,true,NaN
-67,osmosis,https://github.com/osmosis-labs/networks/raw/main/osmosis-1/genesis.json,true,NaN
-68,bitcanna,https://raw.githubusercontent.com/BitCannaGlobal/bcna/main/genesis.json,true,NaN
-69,omniflixhub,https://raw.githubusercontent.com/OmniFlix/mainnet/main/omniflixhub-1/genesis.json,true,NaN
-70,rizon,https://raw.githubusercontent.com/rizon-world/mainnet/master/genesis.json,true,NaN
-71,tgrade,https://raw.githubusercontent.com/confio/tgrade-networks/main/mainnet-1/config/genesis.json,true,NaN
-72,beezee,https://raw.githubusercontent.com/bze-alphateam/bze/main/genesis.json,true,NaN
-73,ethos,,false,unknown url type: ''
-74,ethos,,true,NaN
-75,xpla,https://github.com/xpladev/mainnet/blob/main/dimension_37-1/genesis.json,false,Expecting value: line 8 column 1 (char 7)
-76,xpla,https://github.com/xpladev/mainnet/blob/main/dimension_37-1/genesis.json,true,NaN
-77,provenance,https://raw.githubusercontent.com/provenance-io/mainnet/main/pio-mainnet-1/genesis.json,true,NaN
-78,evmos,https://archive.evmos.org/mainnet/genesis.json,false,HTTP Error 403: Forbidden
-79,evmos,https://archive.evmos.org/mainnet/genesis.json,true,NaN
-80,onomy,https://raw.githubusercontent.com/onomyprotocol/onomy/main/genesis/mainnet/genesis-mainnet-1.json,true,NaN
+5,cudos,https://raw.githubusercontent.com/CudoVentures/cudos-builders/v1.0.0/docker/config/genesis.mainnet.json,true,NaN
+6,migaloo,https://raw.githubusercontent.com/White-Whale-Defi-Platform/migaloo-chain/main/networks/mainnet/genesis.json,false,HTTP Error 404: Not Found
+7,migaloo,https://raw.githubusercontent.com/White-Whale-Defi-Platform/migaloo-chain/main/networks/mainnet/genesis.json,true,NaN
+8,sifchain,https://github.com/Sifchain/networks/blob/master/betanet/sifchain-1/genesis.json.gz?raw=true,false,'utf-8' codec can't decode byte 0x8b in position 1: invalid start byte
+9,sifchain,https://github.com/Sifchain/networks/blob/master/betanet/sifchain-1/genesis.json.gz?raw=true,true,NaN
+10,idep,https://github.com/IDEP-network/Antora/raw/main/genesis.json,true,NaN
+11,mises,https://raw.githubusercontent.com/mises-id/mainnet/master/genesis.json,true,NaN
+12,loyal,https://raw.githubusercontent.com/LoyalLabs/net/main/mainnet/genesis.json,true,NaN
+13,octa,https://octa-coin-assets.s3.eu-central-1.amazonaws.com/genesis.json,false,HTTP Error 403: Forbidden
+14,octa,https://octa-coin-assets.s3.eu-central-1.amazonaws.com/genesis.json,true,NaN
+15,meme,https://github.com/memecosmos/mainnet/raw/main/meme-1/genesis.json,true,NaN
+16,chronicnetwork,https://raw.githubusercontent.com/ChronicNetwork/net/main/mainnet/v1.1/genesis.json,true,NaN
+17,microtick,https://raw.githubusercontent.com/microtick/stargate-genesis/master/genesis.json,true,NaN
+18,agoric,https://main.agoric.net/genesis.json,false,HTTP Error 403: Forbidden
+19,agoric,https://main.agoric.net/genesis.json,true,NaN
+20,umee,https://raw.githubusercontent.com/umee-network/mainnet/main/genesis.json,true,NaN
+21,carbon,https://github.com/Switcheo/carbon-bootstrap/raw/master/carbon-1/genesis.json,false,The read operation timed out
+22,carbon,https://github.com/Switcheo/carbon-bootstrap/raw/master/carbon-1/genesis.json,true,NaN
+23,stargaze,https://raw.githubusercontent.com/public-awesome/mainnet/main/stargaze-1/genesis.tar.gz,false,'utf-8' codec can't decode byte 0x8b in position 1: invalid start byte
+24,stargaze,https://raw.githubusercontent.com/public-awesome/mainnet/main/stargaze-1/genesis.tar.gz,true,NaN
+25,arkh,https://github.com/vincadian/arkh-blockchain/blob/master/genesis/genesis.json,false,Expecting value: line 8 column 1 (char 7)
+26,arkh,https://github.com/vincadian/arkh-blockchain/blob/master/genesis/genesis.json,true,NaN
+27,bandchain,https://raw.githubusercontent.com/bandprotocol/launch/master/laozi-mainnet/genesis.json,true,NaN
+28,genesisl1,https://github.com/alpha-omega-labs/genesisd/raw/neolithic/genesis_29-1-state/genesis.json,true,NaN
+29,comdex,https://comdex-mainnet-genesis.s3.ap-southeast-1.amazonaws.com/genesis.json,true,NaN
+30,thorchain,https://rpc.thorchain.info/genesis,false,"<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+31,thorchain,https://rpc.thorchain.info/genesis,true,NaN
+32,chihuahua,https://raw.githubusercontent.com/ChihuahuaChain/chihuahua/main/mainnet/genesis.json,true,NaN
+33,point,https://raw.githubusercontent.com/pointnetwork/point-chain-config/main/mainnet-1/genesis.json,true,NaN
+34,akash,https://raw.githubusercontent.com/ovrclk/net/master/mainnet/genesis.json,true,NaN
+35,stride,https://raw.githubusercontent.com/Stride-Labs/testnet/main/mainnet/genesis.json,true,NaN
+36,dyson,https://gitlab.com/dysonproject/dyson-deploy/-/raw/develop/genesis.json,true,NaN
+37,cosmoshub,https://github.com/cosmos/mainnet/raw/master/genesis/genesis.cosmoshub-4.json.gz,false,'utf-8' codec can't decode byte 0x8b in position 1: invalid start byte
+38,cosmoshub,https://github.com/cosmos/mainnet/raw/master/genesis/genesis.cosmoshub-4.json.gz,true,NaN
+39,aioz,https://archive.aioz.network/aioz_168-1/genesis.json,true,NaN
+40,kava,https://kava-genesis-files.s3.us-east-1.amazonaws.com/kava_2222-10/genesis.json,true,NaN
+41,starname,https://gist.githubusercontent.com/davepuchyr/6bea7bf369064d118195e9b15ea08a0f/raw/genesis.json,true,NaN
+42,axelar,https://raw.githubusercontent.com/axelarnetwork/axelarate-community/main/resources/mainnet/genesis.json,true,NaN
+43,chain4energy,https://raw.githubusercontent.com/chain4energy/c4e-chains/main/perun-1/genesis.json,true,NaN
+44,logos,,false,unknown url type: ''
+45,logos,,true,NaN
+46,acrechain,https://raw.githubusercontent.com/ArableProtocol/acrechain/main/networks/mainnet/acre_9052-1/genesis.json,true,NaN
+47,sommelier,https://raw.githubusercontent.com/PeggyJV/sommelier/main/contrib/mainnet/sommelier-2/genesis.json,true,NaN
+48,medasdigital,https://github.com/oxygene76/medasdigital/tree/main/networks/mainnet/genesis.json,false,Expecting value: line 8 column 1 (char 7)
+49,medasdigital,https://github.com/oxygene76/medasdigital/tree/main/networks/mainnet/genesis.json,true,NaN
+50,lumenx,https://raw.githubusercontent.com/metaprotocol-ai/lumenx/master/config/genesis.json,false,HTTP Error 404: Not Found
+51,lumenx,https://raw.githubusercontent.com/metaprotocol-ai/lumenx/master/config/genesis.json,true,NaN
+52,impacthub,https://raw.githubusercontent.com/ixofoundation/genesis/980961a8e344dd39bd092493e58b4421aa1c0014/ixo-4/genesis.json,true,NaN
+53,galaxy,https://github.com/OrbisWorlds/networks/raw/main/galaxy-1/genesis.json,true,NaN
+54,echelon,https://gist.githubusercontent.com/echelonfoundation/ee862f58850fc1b5ee6a6fdccc3130d2/raw/55c2c4ea2fee8a9391d0dc55b2c272adb804054a/genesis.json,true,NaN
+55,imversed,https://static.imversed.com/mainnet/genesis.json,false,HTTP Error 403: Forbidden
+56,imversed,https://static.imversed.com/mainnet/genesis.json,true,NaN
+57,kichain,https://raw.githubusercontent.com/KiFoundation/ki-networks/v0.1/Mainnet/kichain-2/genesis.json,true,NaN
+58,bostrom,https://cloudflare-ipfs.com/ipfs/QmYubyVNfghD4xCrTFj26zBwrF9s5GJhi1TmxvrwmJCipr,true,NaN
+59,nomic,https://raw.githubusercontent.com/nomic-io/nomic/develop/genesis.json,false,HTTP Error 404: Not Found
+60,nomic,https://raw.githubusercontent.com/nomic-io/nomic/develop/genesis.json,true,NaN
+61,bitsong,https://raw.githubusercontent.com/bitsongofficial/networks/master/bitsong-2b/genesis.json,true,NaN
+62,fetchhub,https://raw.githubusercontent.com/fetchai/genesis-fetchhub/fetchhub-4/fetchhub-4/data/genesis_migrated_5300200.json,true,NaN
+63,assetmantle,https://raw.githubusercontent.com/AssetMantle/genesisTransactions/main/mantle-1/final_genesis.json,true,NaN
+64,sentinel,https://raw.githubusercontent.com/sentinel-official/networks/main/sentinelhub-2/genesis.zip,false,'utf-8' codec can't decode byte 0x97 in position 11: invalid start byte
+65,sentinel,https://raw.githubusercontent.com/sentinel-official/networks/main/sentinelhub-2/genesis.zip,true,NaN
+66,osmosis,https://github.com/osmosis-labs/networks/raw/main/osmosis-1/genesis.json,true,NaN
+67,bitcanna,https://raw.githubusercontent.com/BitCannaGlobal/bcna/main/genesis.json,true,NaN
+68,omniflixhub,https://raw.githubusercontent.com/OmniFlix/mainnet/main/omniflixhub-1/genesis.json,true,NaN
+69,rizon,https://raw.githubusercontent.com/rizon-world/mainnet/master/genesis.json,true,NaN
+70,tgrade,https://raw.githubusercontent.com/confio/tgrade-networks/main/mainnet-1/config/genesis.json,true,NaN
+71,beezee,https://raw.githubusercontent.com/bze-alphateam/bze/main/genesis.json,true,NaN
+72,ethos,,false,unknown url type: ''
+73,ethos,,true,NaN
+74,xpla,https://github.com/xpladev/mainnet/blob/main/dimension_37-1/genesis.json,false,Expecting value: line 8 column 1 (char 7)
+75,xpla,https://github.com/xpladev/mainnet/blob/main/dimension_37-1/genesis.json,true,NaN
+76,provenance,https://raw.githubusercontent.com/provenance-io/mainnet/main/pio-mainnet-1/genesis.json,true,NaN
+77,evmos,https://archive.evmos.org/mainnet/genesis.json,false,HTTP Error 403: Forbidden
+78,evmos,https://archive.evmos.org/mainnet/genesis.json,true,NaN
+79,onomy,https://raw.githubusercontent.com/onomyprotocol/onomy/main/genesis/mainnet/genesis-mainnet-1.json,true,NaN
+80,dig,https://raw.githubusercontent.com/notional-labs/dig/master/networks/mainnets/dig-1/genesis.json,false,The read operation timed out
 81,dig,https://raw.githubusercontent.com/notional-labs/dig/master/networks/mainnets/dig-1/genesis.json,true,NaN
 82,mythos,,false,unknown url type: ''
 83,mythos,,true,NaN
@@ -94,40 +94,41 @@
 92,commercionetwork,https://raw.githubusercontent.com/commercionetwork/chains/master/commercio-3/genesis.json,true,NaN
 93,lambda,https://raw.githubusercontent.com/LambdaIM/mainnet/main/lambda_92000-1/genesis.json,true,NaN
 94,likecoin,https://raw.githubusercontent.com/likecoin/mainnet/982c14399089950a59d3ebbedcbbc7ead6040457/genesis.json,true,NaN
-95,secretnetwork,https://github.com/scrtlabs/SecretNetwork/releases/download/v1.2.0/genesis.json,true,NaN
-96,cerberus,https://raw.githubusercontent.com/cerberus-zone/cerberus_genesis/main/genesis.json,true,NaN
-97,lumnetwork,https://raw.githubusercontent.com/lum-network/mainnet/master/genesis.json,true,NaN
-98,quicksilver,https://github.com/ingenuity-build/mainnet/raw/main/genesis.json,true,NaN
-99,bluzelle,https://a.client.sentry.net.bluzelle.com:26657/genesis,true,NaN
-100,injective,https://raw.githubusercontent.com/InjectiveLabs/mainnet-config/master/10001/genesis.json,true,NaN
-101,stafihub,https://raw.githubusercontent.com/stafihub/network/main/mainnets/stafihub-1(dragonberry)/genesis.json,true,NaN
-102,vidulum,https://raw.githubusercontent.com/vidulum/mainnet/main/genesis.json,true,NaN
-103,emoney,https://raw.githubusercontent.com/e-money/networks/master/emoney-3/genesis.json,true,NaN
-104,oraichain,https://raw.githubusercontent.com/oraichain/oraichain-static-files/master/mainnet-static-files/genesis.json,false,HTTP Error 404: Not Found
-105,oraichain,https://raw.githubusercontent.com/oraichain/oraichain-static-files/master/mainnet-static-files/genesis.json,true,NaN
-106,cheqd,https://raw.githubusercontent.com/cheqd/cheqd-node/main/networks/mainnet/genesis.json,true,NaN
-107,chimba,https://rpc.mainnet.chimbablockchain.io/genesis,true,NaN
-108,shareledger,https://github.com/ShareRing/Shareledger/releases/download/v1.2.0/genesis.json,true,NaN
-109,8ball,https://8ball.info/8ball-genesis.json,true,NaN
-110,odin,https://raw.githubusercontent.com/ODIN-PROTOCOL/networks/master/mainnets/odin-mainnet-freya/genesis.json,true,NaN
-111,irisnet,https://raw.githubusercontent.com/irisnet/mainnet/master/config/genesis.json,true,NaN
-112,passage,https://raw.githubusercontent.com/envadiv/mainnet/main/passage-1/genesis.json,true,NaN
-113,cronos,https://raw.githubusercontent.com/crypto-org-chain/cronos-mainnet/master/cronosmainnet_25-1/genesis.json,true,NaN
-114,juno,https://download.dimi.sh/juno-phoenix2-genesis.tar.gz,false,HTTP Error 403: Forbidden
-115,juno,https://download.dimi.sh/juno-phoenix2-genesis.tar.gz,true,NaN
-116,mars,https://github.com/mars-protocol/networks/raw/main/mars-1/genesis.json,true,NaN
-117,desmos,https://raw.githubusercontent.com/desmos-labs/mainnet/main/genesis.json,true,NaN
-118,teritori,https://github.com/TERITORI/teritori-chain/raw/mainnet/mainnet/teritori-1/genesis.json,false,The read operation timed out
+95,secretnetwork,https://github.com/scrtlabs/SecretNetwork/releases/download/v1.2.0/genesis.json,false,"IncompleteRead(127619776 bytes read, 1336250796 more expected)"
+96,secretnetwork,https://github.com/scrtlabs/SecretNetwork/releases/download/v1.2.0/genesis.json,true,NaN
+97,cerberus,https://raw.githubusercontent.com/cerberus-zone/cerberus_genesis/main/genesis.json,true,NaN
+98,lumnetwork,https://raw.githubusercontent.com/lum-network/mainnet/master/genesis.json,true,NaN
+99,quicksilver,https://github.com/ingenuity-build/mainnet/raw/main/genesis.json,true,NaN
+100,bluzelle,https://a.client.sentry.net.bluzelle.com:26657/genesis,true,NaN
+101,injective,https://raw.githubusercontent.com/InjectiveLabs/mainnet-config/master/10001/genesis.json,true,NaN
+102,stafihub,https://raw.githubusercontent.com/stafihub/network/main/mainnets/stafihub-1(dragonberry)/genesis.json,true,NaN
+103,vidulum,https://raw.githubusercontent.com/vidulum/mainnet/main/genesis.json,true,NaN
+104,emoney,https://raw.githubusercontent.com/e-money/networks/master/emoney-3/genesis.json,true,NaN
+105,oraichain,https://raw.githubusercontent.com/oraichain/oraichain-static-files/master/mainnet-static-files/genesis.json,false,HTTP Error 404: Not Found
+106,oraichain,https://raw.githubusercontent.com/oraichain/oraichain-static-files/master/mainnet-static-files/genesis.json,true,NaN
+107,cheqd,https://raw.githubusercontent.com/cheqd/cheqd-node/main/networks/mainnet/genesis.json,true,NaN
+108,chimba,https://rpc.mainnet.chimbablockchain.io/genesis,true,NaN
+109,shareledger,https://github.com/ShareRing/Shareledger/releases/download/v1.2.0/genesis.json,true,NaN
+110,8ball,https://8ball.info/8ball-genesis.json,true,NaN
+111,odin,https://raw.githubusercontent.com/ODIN-PROTOCOL/networks/master/mainnets/odin-mainnet-freya/genesis.json,true,NaN
+112,irisnet,https://raw.githubusercontent.com/irisnet/mainnet/master/config/genesis.json,true,NaN
+113,passage,https://raw.githubusercontent.com/envadiv/mainnet/main/passage-1/genesis.json,true,NaN
+114,cronos,https://raw.githubusercontent.com/crypto-org-chain/cronos-mainnet/master/cronosmainnet_25-1/genesis.json,true,NaN
+115,juno,https://download.dimi.sh/juno-phoenix2-genesis.tar.gz,false,HTTP Error 403: Forbidden
+116,juno,https://download.dimi.sh/juno-phoenix2-genesis.tar.gz,true,NaN
+117,mars,https://github.com/mars-protocol/networks/raw/main/mars-1/genesis.json,true,NaN
+118,desmos,https://raw.githubusercontent.com/desmos-labs/mainnet/main/genesis.json,true,NaN
 119,teritori,https://github.com/TERITORI/teritori-chain/raw/mainnet/mainnet/teritori-1/genesis.json,true,NaN
 120,konstellation,https://raw.githubusercontent.com/Konstellation/konstellation/master/config/genesis.json,true,NaN
 121,rebus,https://github.com/rebuschain/rebus.mainnet/raw/master/reb_1111-1/genesis.zip,false,'utf-8' codec can't decode byte 0xae in position 10: invalid start byte
 122,rebus,https://github.com/rebuschain/rebus.mainnet/raw/master/reb_1111-1/genesis.zip,true,NaN
-123,terra2,https://phoenix-genesis.s3.us-west-1.amazonaws.com/genesis.json,true,NaN
-124,jackal,https://cdn.discordapp.com/attachments/1002389406650466405/1034968352591986859/updated_genesis2.json,false,HTTP Error 403: Forbidden
-125,jackal,https://cdn.discordapp.com/attachments/1002389406650466405/1034968352591986859/updated_genesis2.json,true,NaN
-126,regen,https://raw.githubusercontent.com/regen-network/mainnet/main/regen-1/genesis.json,true,NaN
-127,okexchain,https://github.com/okex/mainnet/blob/main/genesis.json,false,Expecting value: line 8 column 1 (char 7)
-128,okexchain,https://github.com/okex/mainnet/blob/main/genesis.json,true,NaN
-129,firmachain,https://raw.githubusercontent.com/FirmaChain/mainnet/main/colosseum-1/genesis.json,true,NaN
-130,shentu,https://raw.githubusercontent.com/ShentuChain/mainnet/main/shentu-2.2/genesis.json,true,NaN
-131,nyx,https://nymtech.net/genesis/genesis.json,true,NaN
+123,terra2,https://phoenix-genesis.s3.us-west-1.amazonaws.com/genesis.json,false,The read operation timed out
+124,terra2,https://phoenix-genesis.s3.us-west-1.amazonaws.com/genesis.json,true,NaN
+125,jackal,https://cdn.discordapp.com/attachments/1002389406650466405/1034968352591986859/updated_genesis2.json,false,HTTP Error 403: Forbidden
+126,jackal,https://cdn.discordapp.com/attachments/1002389406650466405/1034968352591986859/updated_genesis2.json,true,NaN
+127,regen,https://raw.githubusercontent.com/regen-network/mainnet/main/regen-1/genesis.json,true,NaN
+128,okexchain,https://github.com/okex/mainnet/blob/main/genesis.json,false,Expecting value: line 8 column 1 (char 7)
+129,okexchain,https://github.com/okex/mainnet/blob/main/genesis.json,true,NaN
+130,firmachain,https://raw.githubusercontent.com/FirmaChain/mainnet/main/colosseum-1/genesis.json,true,NaN
+131,shentu,https://raw.githubusercontent.com/ShentuChain/mainnet/main/shentu-2.2/genesis.json,true,NaN
+132,nyx,https://nymtech.net/genesis/genesis.json,true,NaN
